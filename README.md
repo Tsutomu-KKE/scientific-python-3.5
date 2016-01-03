@@ -1,4 +1,4 @@
-Python3.5 and scientific packages
+Python3.5 and scientific packages(936MB)
 ======
 
 - Japanese font installed. (Use "plt.rcParams['font.family'] = 'IPAexGothic'")
