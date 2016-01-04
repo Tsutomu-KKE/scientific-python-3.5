@@ -31,7 +31,6 @@ heapdict|1.0.0
 ipykernel|4.1.1
 ipython|4.0.1
 ipython-genutils|0.1.0
-ipython_genutils|0.1.0
 ipywidgets|4.1.0
 itsdangerous|0.24
 jinja2|2.8
@@ -40,9 +39,6 @@ jupyter|1.0.0
 jupyter-client|4.1.1
 jupyter-console|4.0.3
 jupyter-core|4.0.6
-jupyter_client|4.1.1
-jupyter_console|4.0.3
-jupyter_core|4.0.6
 libgfortran|1.0
 libpng|1.6.17
 libsodium|1.0.3
@@ -53,6 +49,7 @@ markdown|2.6.5
 markupsafe|0.23
 matplotlib|1.5.0
 mistune|0.7.1
+more-itertools|2.2
 multipledispatch|0.4.8
 nbconvert|4.1.0
 nbformat|4.0.1

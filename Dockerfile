@@ -13,7 +13,7 @@ RUN apt-get update --fix-missing && apt-get install -y \
             https://raw.githubusercontent.com/Tsutomu-KKE/scientific-python-3.5/master/notebook.json && \
     bash /$MINICONDA -b -p /opt/conda && \
     conda install -y matplotlib networkx scikit-learn jupyter blist bokeh blaze \
-                  statsmodels ncurses seaborn dask flask markdown sympy && \
+                  statsmodels ncurses seaborn dask flask markdown sympy more-itertools && \
     pip install pulp pyjade && \
     ln -s /usr/share/fonts/opentype/ipaexfont-gothic/ipaexg.ttf \
         /opt/conda/lib/python3.5/site-packages/matplotlib/mpl-data/fonts/ttf/ && \
