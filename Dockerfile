@@ -4,6 +4,7 @@ ENV PATH /opt/conda/bin:$PATH
 ENV LANG C.UTF-8
 ENV MINICONDA Miniconda3-latest-Linux-x86_64.sh
 RUN apt-get update --fix-missing && apt-get install -y \
+    libglib2.0-0 libxext6 libsm6 libxrender1 \
     ca-certificates busybox wget fonts-ipaexfont && \
     /bin/busybox --install && \
     apt-get clean && \
