@@ -8,7 +8,7 @@
     "publishing/printview/main": true,
     "usability/exercise2/main": true,
     "usability/ruler/main": true,
-    "usability/search-replace/main": true
+    "usability/search-replace/main": true,
     "usability/toc/main": true
   }
 }
