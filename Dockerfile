@@ -1,4 +1,4 @@
-FROM ubuntu-debootstrap:14.04.3
+FROM ubuntu-debootstrap:14.04
 
 ENV PATH /opt/conda/bin:$PATH
 ENV LANG C.UTF-8
@@ -13,7 +13,8 @@ RUN apt-get update --fix-missing && apt-get install -y \
             https://github.com/ipython-contrib/IPython-notebook-extensions/archive/master.zip \
             https://raw.githubusercontent.com/Tsutomu-KKE/scientific-python-3.5/master/notebook.json && \
     bash /$MINICONDA -b -p /opt/conda && \
-    conda install -y matplotlib networkx scikit-learn jupyter blist bokeh blaze \
+    conda update -y conda && \
+    conda install -y nomkl matplotlib networkx scikit-learn jupyter blist bokeh blaze \
                   statsmodels ncurses seaborn dask flask markdown sympy && \
     pip install pulp pyjade more-itertools && \
     ln -s /usr/share/fonts/opentype/ipaexfont-gothic/ipaexg.ttf \
